@@ -1,0 +1,1514 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>影视大全在线观看 - 正版高清影视平台 | 海量片库 官方出品</title>
+<meta name="description" content="影视大全在线观看官方网站，聚合电影、剧集、纪录片、综艺等正版高清内容，为影视爱好者与企业伙伴构建品质内容生态，提供专业榜单、创作者社区与持续运营的影视平台服务。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1720'/%3E%3Cpath d='M24 18l22 14-22 14z' fill='%233fd0b0'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ysdq-bg:#f4f6f8;
+  --ysdq-ink:#0f1720;
+  --ysdq-ink-2:#33414f;
+  --ysdq-muted:#6b7a88;
+  --ysdq-card:#ffffff;
+  --ysdq-line:#e1403a;
+  --ysdq-accent:#e1403a;
+  --ysdq-accent-soft:#faeceb;
+  --ysdq-deep:#10151c;
+  --ysdq-radius:14px;
+  --ysdq-shadow:0 10px 28px rgba(16,21,28,.08);
+  --ysdq-head:118px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--ysdq-head)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--ysdq-bg);color:var(--ysdq-ink);line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+h1,h2,h3,h4{line-height:1.32;font-weight:800}
+
+/* ===== 吸顶区：公告条 + 页头 ===== */
+.ysdq-sticky-wrap{position:sticky;top:0;z-index:80}
+.ysdq-notice{
+  background:var(--ysdq-deep);color:#e8eef3;font-size:13px;
+  display:flex;align-items:center;gap:12px;padding:8px 20px;overflow:hidden;
+}
+.ysdq-notice-tag{
+  flex:0 0 auto;background:var(--ysdq-accent);color:#fff;font-weight:700;
+  font-size:12px;padding:2px 9px;border-radius:99px;letter-spacing:.5px;
+}
+.ysdq-notice-list{flex:1 1 auto;min-width:0;overflow:hidden;white-space:nowrap;position:relative}
+.ysdq-notice-track{display:inline-flex;gap:40px;animation:ysdqMarquee 26s linear infinite}
+.ysdq-notice-track span{opacity:.9}
+.ysdq-notice-track b{color:#ffcf6b}
+@keyframes ysdqMarquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ysdq-notice-close{flex:0 0 auto;color:#8d9aa6;font-size:16px;padding:0 4px}
+.ysdq-notice-close:hover{color:#fff}
+
+.ysdq-header{
+  background:rgba(255,255,255,.96);backdrop-filter:blur(10px);
+  border-bottom:1px solid #e6eaee;
+}
+.ysdq-header-inner{
+  max-width:1240px;margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+}
+.ysdq-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.ysdq-brand-mark{
+  width:40px;height:40px;border-radius:11px;background:var(--ysdq-deep);
+  display:grid;place-items:center;
+}
+.ysdq-brand-mark svg{width:20px;height:20px}
+.ysdq-brand-name{font-size:18px;font-weight:900;letter-spacing:.5px}
+.ysdq-brand-sub{font-size:11px;color:var(--ysdq-muted);letter-spacing:2px}
+.ysdq-nav{flex:1 1 auto;min-width:0}
+.ysdq-nav ul{display:flex;gap:6px;flex-wrap:wrap}
+.ysdq-nav a{
+  display:block;padding:7px 12px;border-radius:8px;font-size:14px;
+  color:var(--ysdq-ink-2);font-weight:600;transition:.2s;
+}
+.ysdq-nav a:hover{background:var(--ysdq-accent-soft);color:var(--ysdq-accent)}
+.ysdq-header-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.ysdq-search{
+  display:flex;align-items:center;gap:6px;background:#f0f3f6;
+  border:1px solid #e2e8ee;border-radius:99px;padding:5px 6px 5px 14px;
+}
+.ysdq-search input{
+  border:none;background:none;outline:none;font-size:13px;width:150px;color:var(--ysdq-ink);
+}
+.ysdq-search input::placeholder{color:#93a1ad}
+.ysdq-search button{
+  background:var(--ysdq-ink);color:#fff;font-size:12px;font-weight:700;
+  padding:6px 13px;border-radius:99px;
+}
+.ysdq-search button:hover{background:var(--ysdq-accent)}
+.ysdq-burger{display:none;width:40px;height:40px;border-radius:10px;background:#f0f3f6;place-items:center}
+.ysdq-burger span{display:block;width:18px;height:2px;background:var(--ysdq-ink);border-radius:2px;position:relative}
+.ysdq-burger span::before,.ysdq-burger span::after{
+  content:"";position:absolute;left:0;width:18px;height:2px;background:var(--ysdq-ink);border-radius:2px;
+}
+.ysdq-burger span::before{top:-6px}
+.ysdq-burger span::after{top:6px}
+.ysdq-search-feedback{
+  max-width:1240px;margin:0 auto;padding:0 20px;font-size:13px;color:var(--ysdq-accent);
+  height:0;overflow:hidden;transition:.25s;
+}
+.ysdq-search-feedback.is-on{height:30px;padding-top:4px;padding-bottom:2px}
+
+/* ===== 通用容器 ===== */
+.ysdq-section{max-width:1240px;margin:0 auto;padding:56px 20px}
+.ysdq-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:26px;flex-wrap:wrap}
+.ysdq-eyebrow{
+  display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:800;
+  letter-spacing:2px;color:var(--ysdq-accent);text-transform:uppercase;
+}
+.ysdq-eyebrow::before{content:"";width:18px;height:3px;background:var(--ysdq-accent);border-radius:2px}
+.ysdq-h2{font-size:clamp(22px,3vw,30px);margin-top:8px}
+.ysdq-h2 em{font-style:normal;color:var(--ysdq-accent)}
+.ysdq-sec-desc{font-size:14px;color:var(--ysdq-muted);max-width:60ch;margin-top:8px}
+.ysdq-link-more{font-size:13px;font-weight:700;color:var(--ysdq-accent);white-space:nowrap}
+.ysdq-link-more:hover{text-decoration:underline}
+
+/* ===== 首屏 ===== */
+.ysdq-hero{
+  background:linear-gradient(180deg,#0d1219 0%,#131b24 58%,#f4f6f8 58.1%);
+  padding:0;
+}
+.ysdq-hero-inner{
+  max-width:1240px;margin:0 auto;padding:48px 20px 0;
+  display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;
+}
+.ysdq-hero-copy{color:#eaf0f5}
+.ysdq-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;
+  letter-spacing:1.5px;color:#8ee6cf;border:1px solid rgba(142,230,207,.4);
+  background:rgba(142,230,207,.08);padding:5px 13px;border-radius:99px;margin-bottom:20px;
+}
+.ysdq-h1{
+  font-size:clamp(30px,4.6vw,52px);font-weight:900;letter-spacing:-.5px;color:#fff;
+}
+.ysdq-h1 span{color:#ffcf6b}
+.ysdq-hero-lead{
+  margin-top:16px;font-size:15.5px;color:#b9c6d2;max-width:52ch;
+}
+.ysdq-hero-intro{
+  margin-top:18px;font-size:13.5px;color:#93a1ad;max-width:56ch;
+  border-left:2px solid rgba(225,64,58,.7);padding-left:14px;
+}
+.ysdq-hero-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px;
+}
+.ysdq-hero-stat{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+  border-radius:12px;padding:13px 14px;
+}
+.ysdq-hero-stat b{display:block;font-size:22px;font-weight:900;color:#fff;letter-spacing:-.5px}
+.ysdq-hero-stat span{font-size:12px;color:#8d9aa6}
+.ysdq-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.ysdq-btn{
+  display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:800;
+  padding:11px 22px;border-radius:99px;transition:.2s;
+}
+.ysdq-btn-primary{background:var(--ysdq-accent);color:#fff}
+.ysdq-btn-primary:hover{background:#c9302b;transform:translateY(-1px)}
+.ysdq-btn-ghost{border:1px solid rgba(255,255,255,.3);color:#e8eef3}
+.ysdq-btn-ghost:hover{border-color:#8ee6cf;color:#8ee6cf}
+.ysdq-hero-visual{position:relative}
+.ysdq-hero-frame{
+  border-radius:20px;overflow:hidden;box-shadow:0 26px 60px rgba(0,0,0,.4);
+  border:1px solid rgba(255,255,255,.12);
+}
+.ysdq-hero-frame img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.ysdq-hero-caption{
+  margin-top:14px;background:#fff;border-radius:12px;padding:12px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  box-shadow:var(--ysdq-shadow);font-size:13px;
+}
+.ysdq-hero-caption b{font-size:13.5px}
+.ysdq-hero-caption small{color:var(--ysdq-muted);display:block;font-size:12px;font-weight:500}
+.ysdq-play{
+  width:38px;height:38px;border-radius:50%;background:var(--ysdq-accent);color:#fff;
+  display:grid;place-items:center;flex:0 0 auto;box-shadow:0 6px 16px rgba(225,64,58,.4);
+}
+.ysdq-play svg{width:14px;height:14px;margin-left:2px}
+
+/* ===== 焦点内容 ===== */
+.ysdq-focus-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+.ysdq-card{
+  background:var(--ysdq-card);border-radius:var(--ysdq-radius);
+  border:1px solid #e8edf1;box-shadow:var(--ysdq-shadow);overflow:hidden;
+  transition:transform .25s,box-shadow .25s;
+}
+.ysdq-card:hover{transform:translateY(-3px);box-shadow:0 16px 38px rgba(16,21,28,.12)}
+.ysdq-focus-main{display:block}
+.ysdq-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.ysdq-focus-body{padding:20px 22px 22px}
+.ysdq-tagline{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.ysdq-tag{
+  font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:99px;
+  background:var(--ysdq-accent-soft);color:var(--ysdq-accent);
+}
+.ysdq-tag.is-gray{background:#eef2f5;color:#5c6b78}
+.ysdq-focus-body h3{font-size:21px;margin-bottom:8px}
+.ysdq-focus-body p{font-size:13.5px;color:var(--ysdq-ink-2)}
+.ysdq-meta{
+  display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--ysdq-muted);margin-top:14px;
+}
+.ysdq-meta b{color:var(--ysdq-ink-2);font-weight:700}
+.ysdq-focus-list{display:grid;gap:14px}
+.ysdq-focus-item{display:flex;gap:14px;padding:14px 16px;align-items:flex-start}
+.ysdq-idx{
+  font-size:12px;font-weight:900;color:var(--ysdq-accent);background:var(--ysdq-accent-soft);
+  width:26px;height:26px;border-radius:8px;display:grid;place-items:center;flex:0 0 auto;margin-top:2px;
+}
+.ysdq-focus-item h3{font-size:15.5px;margin-bottom:4px}
+.ysdq-focus-item p{font-size:13px;color:var(--ysdq-muted)}
+
+/* ===== 视频流 ===== */
+.ysdq-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.ysdq-video-card{display:flex;flex-direction:column}
+.ysdq-video-thumb{position:relative}
+.ysdq-video-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.ysdq-thumb-overlay{
+  position:absolute;left:10px;bottom:10px;background:rgba(13,18,25,.78);color:#fff;
+  font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:99px;letter-spacing:.5px;
+}
+.ysdq-video-body{padding:15px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1 1 auto}
+.ysdq-video-body h3{font-size:15.5px}
+.ysdq-video-body p{font-size:13px;color:var(--ysdq-muted);flex:1 1 auto}
+.ysdq-video-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.ysdq-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;
+  color:var(--ysdq-ink-2);background:#f1f4f7;border-radius:99px;padding:5px 11px;transition:.18s;
+}
+.ysdq-act:hover{background:#e4e9ee}
+.ysdq-act svg{width:13px;height:13px}
+.ysdq-act.is-liked{background:var(--ysdq-accent-soft);color:var(--ysdq-accent)}
+.ysdq-act.is-saved{background:#fff4d9;color:#a86a00}
+.ysdq-video-meta{display:flex;gap:12px;flex-wrap:wrap;font-size:11.5px;color:#93a1ad}
+.ysdq-video-meta b{color:var(--ysdq-ink-2)}
+.ysdq-video-textlist{margin-top:22px;display:grid;gap:0;border-top:1px dashed #dfe5eb}
+.ysdq-vrow{
+  display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;
+  padding:15px 6px;border-bottom:1px dashed #dfe5eb;transition:.18s;
+}
+.ysdq-vrow:hover{background:#fbfcfd}
+.ysdq-vrow-no{font-size:13px;font-weight:900;color:#b6c1cb}
+.ysdq-vrow h4{font-size:15px;margin-bottom:3px}
+.ysdq-vrow p{font-size:12.5px;color:var(--ysdq-muted)}
+.ysdq-vrow-tag{
+  font-size:11px;font-weight:700;color:var(--ysdq-accent);background:var(--ysdq-accent-soft);
+  padding:3px 10px;border-radius:99px;white-space:nowrap;
+}
+
+/* ===== 榜单 ===== */
+.ysdq-board-wrap{
+  background:var(--ysdq-deep);border-radius:20px;padding:38px 20px;color:#e8eef3;
+  max-width:1240px;margin:0 auto;
+}
+.ysdq-board-inner{max-width:1200px;margin:0 auto}
+.ysdq-board-head{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;flex-wrap:wrap;margin-bottom:24px}
+.ysdq-board-head .ysdq-eyebrow{color:#ffcf6b}
+.ysdq-board-head .ysdq-eyebrow::before{background:#ffcf6b}
+.ysdq-board-head h2{color:#fff}
+.ysdq-board-desc{font-size:13px;color:#93a1ad;max-width:56ch;margin-top:6px}
+.ysdq-board-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.ysdq-board-col{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);
+  border-radius:14px;padding:18px 18px 8px;
+}
+.ysdq-board-col h3{font-size:15px;color:#8ee6cf;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.ysdq-board-col h3 span{font-size:11px;color:#93a1ad;font-weight:600}
+.ysdq-board-item{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);align-items:center}
+.ysdq-board-item:last-child{border-bottom:none}
+.ysdq-board-rank{
+  width:24px;height:24px;border-radius:7px;display:grid;place-items:center;flex:0 0 auto;
+  font-size:12px;font-weight:900;background:rgba(255,255,255,.1);color:#e8eef3;
+}
+.ysdq-board-item:nth-child(2) .ysdq-board-rank{background:#ffcf6b;color:#2b2410}
+.ysdq-board-item:nth-child(3) .ysdq-board-rank{background:#c7d3dd;color:#1a2029}
+.ysdq-board-item:nth-child(4) .ysdq-board-rank{background:#c98a5a;color:#2b1a10}
+.ysdq-board-item b{font-size:14px;font-weight:700;display:block}
+.ysdq-board-item small{font-size:11.5px;color:#8d9aa6}
+.ysdq-board-score{margin-left:auto;font-size:12px;font-weight:800;color:#ffcf6b;white-space:nowrap}
+
+/* ===== 专题 ===== */
+.ysdq-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.ysdq-topic-card{padding:20px 20px 18px;display:flex;flex-direction:column;gap:12px}
+.ysdq-topic-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ysdq-topic-head h3{font-size:17px}
+.ysdq-status{
+  font-size:11px;font-weight:700;padding:3px 10px;border-radius:99px;white-space:nowrap;
+  background:#e8f7f2;color:#0f8a6c;
+}
+.ysdq-status.is-wait{background:#fff4d9;color:#a86a00}
+.ysdq-status.is-end{background:#eef2f5;color:#5c6b78}
+.ysdq-topic-card > p{font-size:13px;color:var(--ysdq-muted)}
+.ysdq-topic-list{display:grid;gap:7px;border-top:1px dashed #e2e8ee;padding-top:11px}
+.ysdq-topic-list li{display:flex;gap:9px;font-size:13px;color:var(--ysdq-ink-2)}
+.ysdq-topic-list li::before{content:"▸";color:var(--ysdq-accent);font-weight:900;flex:0 0 auto}
+.ysdq-topic-card img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px}
+
+/* ===== 关键词深度解析 ===== */
+.ysdq-deep{background:#fff;border-top:1px solid #e8edf1;border-bottom:1px solid #e8edf1}
+.ysdq-deep-inner{max-width:980px;margin:0 auto;padding:56px 20px}
+.ysdq-deep h3{font-size:18px;margin:26px 0 10px;padding-left:12px;border-left:4px solid var(--ysdq-accent)}
+.ysdq-deep p{font-size:14.5px;color:var(--ysdq-ink-2);margin-bottom:12px}
+.ysdq-deep-strong{background:#fbfcfd;border:1px solid #e8edf1;border-radius:12px;padding:16px 18px;font-size:14px;color:var(--ysdq-ink-2);margin-bottom:6px}
+.ysdq-deep-strong b{color:var(--ysdq-accent)}
+
+/* ===== 作者 ===== */
+.ysdq-author-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.ysdq-author-card{padding:18px;display:flex;flex-direction:column;gap:10px}
+.ysdq-avatar{
+  width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
+  font-size:17px;font-weight:900;color:#fff;letter-spacing:1px;
+}
+.ysdq-author-top{display:flex;gap:12px;align-items:center}
+.ysdq-author-top h3{font-size:15.5px}
+.ysdq-author-top small{font-size:11.5px;color:var(--ysdq-muted);display:block;font-weight:600}
+.ysdq-author-card p{font-size:13px;color:var(--ysdq-muted);flex:1 1 auto}
+.ysdq-author-nums{display:flex;gap:16px;font-size:12px;color:var(--ysdq-muted);border-top:1px dashed #e2e8ee;padding-top:10px}
+.ysdq-author-nums b{color:var(--ysdq-ink);font-weight:800}
+.ysdq-author-btn{
+  font-size:12px;font-weight:700;padding:6px 12px;border-radius:99px;
+  background:#f1f4f7;color:var(--ysdq-ink-2);align-self:flex-start;transition:.18s;
+}
+.ysdq-author-btn:hover{background:var(--ysdq-accent);color:#fff}
+
+/* ===== 评价 ===== */
+.ysdq-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.ysdq-review-card{padding:18px 20px}
+.ysdq-review-head{display:flex;align-items:center;gap:11px;margin-bottom:9px}
+.ysdq-review-head b{font-size:13.5px}
+.ysdq-review-head small{display:block;font-size:11.5px;color:var(--ysdq-muted)}
+.ysdq-stars{margin-left:auto;font-size:12px;color:#f0a01e;letter-spacing:2px;white-space:nowrap}
+.ysdq-review-card p{font-size:13.5px;color:var(--ysdq-ink-2)}
+.ysdq-review-card.is-quote{background:var(--ysdq-deep);color:#e8eef3;border-color:transparent}
+.ysdq-review-card.is-quote p{color:#d4dde5;font-size:14.5px;font-style:italic}
+.ysdq-review-card.is-quote small{color:#8d9aa6}
+
+/* ===== 企业动态 ===== */
+.ysdq-news-list{display:grid;gap:0;border-top:1px solid #e8edf1}
+.ysdq-news-row{
+  display:grid;grid-template-columns:110px 1fr auto;gap:16px;align-items:center;
+  padding:16px 4px;border-bottom:1px solid #e8edf1;
+}
+.ysdq-news-date{font-size:12.5px;font-weight:800;color:var(--ysdq-accent)}
+.ysdq-news-row h3{font-size:15px;margin-bottom:2px}
+.ysdq-news-row p{font-size:12.5px;color:var(--ysdq-muted)}
+.ysdq-news-badge{font-size:11px;font-weight:700;color:#5c6b78;background:#eef2f5;padding:3px 10px;border-radius:99px;white-space:nowrap}
+
+/* ===== 合作 & FAQ ===== */
+.ysdq-split{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;align-items:start}
+.ysdq-partner-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ysdq-partner{
+  background:#fff;border:1px solid #e8edf1;border-radius:12px;padding:16px 14px;
+  display:flex;align-items:center;gap:11px;transition:.2s;
+}
+.ysdq-partner:hover{border-color:#cbd6df;transform:translateY(-2px)}
+.ysdq-partner-mark{
+  width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
+  font-size:13px;font-weight:900;color:#fff;flex:0 0 auto;
+}
+.ysdq-partner b{font-size:13.5px;display:block}
+.ysdq-partner small{font-size:11.5px;color:var(--ysdq-muted)}
+.ysdq-faq{display:grid;gap:10px}
+.ysdq-faq details{
+  background:#fff;border:1px solid #e8edf1;border-radius:12px;padding:14px 18px;
+  transition:.2s;
+}
+.ysdq-faq details[open]{border-color:#f3cbc8;box-shadow:0 8px 22px rgba(225,64,58,.07)}
+.ysdq-faq summary{
+  font-size:14.5px;font-weight:700;cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.ysdq-faq summary::-webkit-details-marker{display:none}
+.ysdq-faq summary::after{content:"+";font-size:19px;color:var(--ysdq-accent);font-weight:800;line-height:1}
+.ysdq-faq details[open] summary::after{content:"−"}
+.ysdq-faq p{font-size:13.5px;color:var(--ysdq-muted);margin-top:9px}
+
+/* ===== 投稿条 ===== */
+.ysdq-cta{
+  max-width:1240px;margin:0 auto 0;padding:0 20px;
+}
+.ysdq-cta-inner{
+  background:linear-gradient(115deg,#131b24,#1d2a37 60%,#24384a);
+  border-radius:20px;padding:34px 30px;display:flex;gap:24px;align-items:center;
+  justify-content:space-between;flex-wrap:wrap;color:#eaf0f5;
+}
+.ysdq-cta-inner h2{font-size:22px;color:#fff}
+.ysdq-cta-inner p{font-size:13.5px;color:#93a1ad;margin-top:6px;max-width:56ch}
+
+/* ===== 页脚 ===== */
+.ysdq-footer{background:#0b1016;color:#93a1ad;margin-top:56px;font-size:13px}
+.ysdq-footer-inner{max-width:1240px;margin:0 auto;padding:44px 20px 26px}
+.ysdq-footer-cols{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:26px}
+.ysdq-footer h4{font-size:13.5px;color:#e8eef3;margin-bottom:12px;letter-spacing:.5px}
+.ysdq-footer-col a{display:block;padding:4px 0;font-size:13px;color:#8d9aa6;transition:.18s}
+.ysdq-footer-col a:hover{color:#8ee6cf}
+.ysdq-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.ysdq-footer-brand b{color:#fff;font-size:16px;font-weight:900}
+.ysdq-footer-bottom{
+  border-top:1px solid #1b232c;margin-top:30px;padding-top:18px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;color:#6b7a88;
+}
+.ysdq-footer-bottom span{line-height:1.9}
+
+/* ===== 回到顶部 ===== */
+.ysdq-top{
+  position:fixed;right:22px;bottom:24px;width:46px;height:46px;border-radius:50%;
+  background:var(--ysdq-ink);color:#fff;display:grid;place-items:center;z-index:90;
+  box-shadow:0 10px 24px rgba(16,21,28,.28);opacity:0;visibility:hidden;transition:.26s;
+}
+.ysdq-top.is-on{opacity:1;visibility:visible}
+.ysdq-top:hover{background:var(--ysdq-accent)}
+.ysdq-top svg{width:18px;height:18px}
+
+/* ===== 弹窗 & Toast ===== */
+.ysdq-modal-mask{
+  position:fixed;inset:0;background:rgba(9,13,18,.6);z-index:120;
+  display:none;align-items:center;justify-content:center;padding:20px;
+}
+.ysdq-modal-mask.is-on{display:flex}
+.ysdq-modal{
+  background:#fff;border-radius:16px;max-width:520px;width:100%;padding:26px 26px 22px;
+  max-height:86vh;overflow:auto;box-shadow:0 30px 70px rgba(0,0,0,.3);
+}
+.ysdq-modal h3{font-size:18px;margin-bottom:8px}
+.ysdq-modal p{font-size:13.5px;color:var(--ysdq-muted);margin-bottom:14px}
+.ysdq-modal label{display:block;font-size:12.5px;font-weight:700;color:var(--ysdq-ink-2);margin:10px 0 5px}
+.ysdq-modal input,.ysdq-modal textarea,.ysdq-modal select{
+  width:100%;border:1px solid #e2e8ee;border-radius:9px;padding:9px 12px;font-size:13.5px;
+  font-family:inherit;outline:none;color:var(--ysdq-ink);background:#fbfcfd;
+}
+.ysdq-modal textarea{resize:vertical;min-height:82px}
+.ysdq-modal input:focus,.ysdq-modal textarea:focus,.ysdq-modal select:focus{border-color:var(--ysdq-accent);background:#fff}
+.ysdq-modal-foot{display:flex;gap:10px;justify-content:flex-end;margin-top:18px;flex-wrap:wrap}
+.ysdq-btn-dark{background:var(--ysdq-ink);color:#fff;font-size:13px;font-weight:700;padding:9px 20px;border-radius:99px}
+.ysdq-btn-dark:hover{background:#213040}
+.ysdq-btn-line{border:1px solid #dbe2e8;color:var(--ysdq-ink-2);font-size:13px;font-weight:700;padding:9px 20px;border-radius:99px}
+.ysdq-btn-line:hover{border-color:#b9c6d2}
+.ysdq-share-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:8px}
+.ysdq-share-item{
+  border:1px solid #e8edf1;border-radius:10px;padding:12px 6px;text-align:center;font-size:12px;font-weight:700;
+  color:var(--ysdq-ink-2);transition:.18s;
+}
+.ysdq-share-item:hover{border-color:var(--ysdq-accent);color:var(--ysdq-accent)}
+.ysdq-share-item span{display:block;font-size:19px;margin-bottom:4px}
+.ysdq-toast{
+  position:fixed;left:50%;bottom:88px;transform:translate(-50%,14px);
+  background:var(--ysdq-deep);color:#fff;font-size:13px;font-weight:600;
+  padding:10px 20px;border-radius:99px;z-index:200;opacity:0;visibility:hidden;transition:.26s;
+  max-width:80vw;text-align:center;
+}
+.ysdq-toast.is-on{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.ysdq-toast.is-err{background:#8f2620}
+.ysdq-toast.is-ok{background:#0f8a6c}
+
+/* ===== 响应式 ===== */
+@media(max-width:1080px){
+  .ysdq-hero-inner{grid-template-columns:1fr;gap:30px}
+  .ysdq-hero{background:linear-gradient(180deg,#0d1219 0%,#131b24 74%,#f4f6f8 74.1%)}
+  .ysdq-author-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ysdq-video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ysdq-board-cols{grid-template-columns:1fr}
+  .ysdq-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ysdq-footer-cols{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+  :root{--ysdq-head:112px}
+  .ysdq-burger{display:grid}
+  .ysdq-nav{
+    order:5;flex-basis:100%;max-height:0;overflow:hidden;transition:max-height .3s ease;
+  }
+  .ysdq-nav.is-open{max-height:420px}
+  .ysdq-nav ul{flex-direction:column;gap:2px;padding:8px 0 4px;border-top:1px solid #eef2f5;margin-top:8px}
+  .ysdq-header-tools{flex:1 1 auto;justify-content:flex-end}
+  .ysdq-search input{width:112px}
+  .ysdq-focus-grid,.ysdq-split{grid-template-columns:1fr}
+  .ysdq-topic-grid{grid-template-columns:1fr}
+  .ysdq-review-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .ysdq-hero-stats{grid-template-columns:1fr 1fr}
+  .ysdq-video-grid{grid-template-columns:1fr}
+  .ysdq-author-grid{grid-template-columns:1fr}
+  .ysdq-partner-grid{grid-template-columns:1fr}
+  .ysdq-news-row{grid-template-columns:1fr;gap:4px}
+  .ysdq-news-badge{justify-self:start}
+  .ysdq-footer-cols{grid-template-columns:1fr}
+  .ysdq-section{padding:42px 18px}
+  .ysdq-vrow{grid-template-columns:30px 1fr;gap:10px}
+  .ysdq-vrow-tag{grid-column:2;justify-self:start}
+  .ysdq-cta-inner{padding:26px 22px}
+  .ysdq-share-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="ysdq-sticky-wrap">
+  <div class="ysdq-notice" id="ysdqNotice">
+    <span class="ysdq-notice-tag">官方发布</span>
+    <div class="ysdq-notice-list">
+      <div class="ysdq-notice-track" id="ysdqNoticeTrack">
+        <span><b>11/22</b> 「冬季片单企划」上线，48部正版修复版老片高清连播</span>
+        <span><b>11/20</b> 创作者扶持计划第三期开启，投稿入口开放报名</span>
+        <span><b>11/18</b> 新增4K修复专区，支持逐帧下载与收藏同步</span>
+        <span><b>11/15</b> 年度口碑榜投票启动，社区投票通道已开启</span>
+        <span><b>11/22</b> 「冬季片单企划」上线，48部正版修复版老片高清连播</span>
+        <span><b>11/20</b> 创作者扶持计划第三期开启，投稿入口开放报名</span>
+        <span><b>11/18</b> 新增4K修复专区，支持逐帧下载与收藏同步</span>
+        <span><b>11/15</b> 年度口碑榜投票启动，社区投票通道已开启</span>
+      </div>
+    </div>
+    <button class="ysdq-notice-close" id="ysdqNoticeClose" aria-label="关闭公告">✕</button>
+  </div>
+
+  <header class="ysdq-header">
+    <div class="ysdq-header-inner">
+      <a class="ysdq-brand" href="#ysdqHero" aria-label="影视大全在线观看首页">
+        <span class="ysdq-brand-mark">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M24 18l22 14-22 14z" fill="#3fd0b0"/></svg>
+        </span>
+        <span>
+          <span class="ysdq-brand-name">影视大全在线观看</span>
+          <span class="ysdq-brand-sub">OFFICIAL VIDEO PLATFORM</span>
+        </span>
+      </a>
+      <nav class="ysdq-nav" id="ysdqNav" aria-label="主导航">
+        <ul>
+          <li><a href="#ysdqFocus">焦点推荐</a></li>
+          <li><a href="#ysdqVideos">热门视频</a></li>
+          <li><a href="#ysdqBoard">数据榜单</a></li>
+          <li><a href="#ysdqTopics">专题企划</a></li>
+          <li><a href="#ysdqDeep">深度解析</a></li>
+          <li><a href="#ysdqAuthors">创作者</a></li>
+          <li><a href="#ysdqReviews">用户口碑</a></li>
+          <li><a href="#ysdqNews">企业动态</a></li>
+          <li><a href="#ysdqFaq">帮助中心</a></li>
+        </ul>
+      </nav>
+      <div class="ysdq-header-tools">
+        <form class="ysdq-search" id="ysdqSearchForm" role="search">
+          <input type="search" id="ysdqSearchInput" placeholder="搜索影片 / 创作者" aria-label="站内搜索">
+          <button type="submit">搜索</button>
+        </form>
+        <button class="ysdq-burger" id="ysdqBurger" aria-label="展开导航" aria-expanded="false" aria-controls="ysdqNav"><span></span></button>
+      </div>
+    </div>
+    <div class="ysdq-search-feedback" id="ysdqSearchFeedback" role="status" aria-live="polite"></div>
+  </header>
+</div>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="ysdq-hero" id="ysdqHero">
+    <div class="ysdq-hero-inner">
+      <div class="ysdq-hero-copy">
+        <span class="ysdq-hero-badge">官方网站 · 正版高清 · 企业级影视平台</span>
+        <h1 class="ysdq-h1">影视大全在线观看<span>，把好片留在高清里</span></h1>
+        <p class="ysdq-hero-lead">
+          电影、剧集、纪录片、综艺与短片，一处聚合；正版授权、高清画质、专业片单，陪你从深夜的独观影到周末的家庭时间。
+        </p>
+        <p class="ysdq-hero-intro">
+          影视大全在线观看是一家持续运营的影视内容平台企业，深耕正版片库与创作者社区，以专业选片、高清播放与真实口碑为核心，为影视爱好者提供值得信赖的官方观看入口。
+        </p>
+        <div class="ysdq-hero-stats">
+          <div class="ysdq-hero-stat"><b>12,860+</b><span>正版影视条目</span></div>
+          <div class="ysdq-hero-stat"><b>3,400 万</b><span>月均观看人次</span></div>
+          <div class="ysdq-hero-stat"><b>4.9 / 5</b><span>社区口碑评分</span></div>
+        </div>
+        <div class="ysdq-hero-actions">
+          <a class="ysdq-btn ysdq-btn-primary" href="#ysdqVideos">立即观看片库</a>
+          <a class="ysdq-btn ysdq-btn-ghost" href="#ysdqAuthors">认识创作者</a>
+          <button class="ysdq-btn ysdq-btn-ghost" data-ysdq-open="submit">投稿 / 报名</button>
+          <button class="ysdq-btn ysdq-btn-ghost" data-ysdq-open="share">分享平台</button>
+        </div>
+      </div>
+      <div class="ysdq-hero-visual">
+        <div class="ysdq-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%231b2c3c'/%3E%3Cstop offset='1' stop-color='%230b1219'/%3E%3C/linearGradient%3E%3ClinearGradient id='glow' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23e1403a'/%3E%3Cstop offset='1' stop-color='%23ffcf6b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='610' cy='150' r='86' fill='%23ffcf6b' opacity='0.85'/%3E%3Ccircle cx='610' cy='150' r='130' fill='%23ffcf6b' opacity='0.10'/%3E%3Cpath d='M0 430 L150 330 L300 420 L450 300 L620 410 L800 340 L800 600 L0 600Z' fill='%23131f2b'/%3E%3Cpath d='M0 500 L180 430 L360 500 L560 410 L800 470 L800 600 L0 600Z' fill='%230c141c'/%3E%3Crect x='0' y='540' width='800' height='60' fill='%23e1403a' opacity='0.9'/%3E%3Cg opacity='0.95'%3E%3Crect x='90' y='420' width='96' height='120' rx='6' fill='%233fd0b0' opacity='0.55'/%3E%3Crect x='700' y='380' width='64' height='160' rx='6' fill='%23ffffff' opacity='0.10'/%3E%3C/g%3E%3Ccircle cx='400' cy='300' r='66' fill='url(%23glow)'/%3E%3Cpath d='M382 270l46 30-46 30z' fill='%230b1219'/%3E%3C/svg%3E" alt="影视大全在线观看首屏主视觉：夜色山峦前的高清播放标识" width="800" height="600" loading="eager">
+        </div>
+        <div class="ysdq-hero-caption">
+          <span>
+            <b>本周官方主推 · 冬日修复剧场</b>
+            <small>《长夜将尽》4K 修复版 第 01 集 · 共 12 集</small>
+          </span>
+          <span class="ysdq-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点推荐 -->
+  <section class="ysdq-section" id="ysdqFocus">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Focus Picks</span>
+        <h2 class="ysdq-h2">焦点推荐 · <em>影视大全在线观看</em>编辑部本周片单</h2>
+        <p class="ysdq-sec-desc">由官方选片组与社区口碑共同筛出：一部重点主推，三部编辑手记推荐。所有内容均为正版授权、高清可播。</p>
+      </div>
+      <a class="ysdq-link-more" href="#ysdqVideos">查看完整片库 →</a>
+    </div>
+
+    <div class="ysdq-focus-grid">
+      <article class="ysdq-card ysdq-focus-main">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 506'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23243950'/%3E%3Cstop offset='1' stop-color='%230d141c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='900' height='506' fill='url(%23a)'/%3E%3Cg stroke='%233fd0b0' stroke-width='2' fill='none' opacity='0.5'%3E%3Cpath d='M80 380 Q220 220 360 340 T640 260'/%3E%3Cpath d='M80 420 Q240 300 400 400 T700 330'/%3E%3C/g%3E%3Ccircle cx='700' cy='130' r='74' fill='%23e1403a' opacity='0.9'/%3E%3Crect x='84' y='84' width='210' height='118' rx='8' fill='%23ffffff' opacity='0.08'/%3E%3Ctext x='104' y='152' fill='%23ffcf6b' font-family='sans-serif' font-size='34' font-weight='bold'%3E4K%3C/text%3E%3Ctext x='84' y='470' fill='%2393a1ad' font-family='sans-serif' font-size='18'%3E长夜将尽 · 修复版%3C/text%3E%3C/svg%3E" alt="《长夜将尽》4K修复版焦点主推封面" width="900" height="506">
+        <div class="ysdq-focus-body">
+          <div class="ysdq-tagline">
+            <span class="ysdq-tag">官方主推</span>
+            <span class="ysdq-tag is-gray">4K 修复</span>
+            <span class="ysdq-tag is-gray">剧集</span>
+          </div>
+          <h3>《长夜将尽》：一部被时间擦亮的十二集长剧</h3>
+          <p>首播二十年后重制上线，胶片颗粒被逐帧修复，声音重新做了 5.1 混录。我们在编辑部连看了三遍，第四遍才敢写推荐语：它讲的不是悬案，而是一座小城如何慢慢学会告别。</p>
+          <div class="ysdq-meta">
+            <span>导演：<b>周慕之</b></span>
+            <span>播放：<b>286.4 万</b></span>
+            <span>收藏：<b>9.7 万</b></span>
+            <span>口碑：<b>9.2 分</b></span>
+          </div>
+          <div class="ysdq-video-actions" style="margin-top:14px">
+            <button class="ysdq-act" data-ysdq-like><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-9.2-9A5.4 5.4 0 0 1 12 5.6 5.4 5.4 0 0 1 21.2 12C19 16.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>喜欢</span></button>
+            <button class="ysdq-act" data-ysdq-save><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>收藏</span></button>
+            <button class="ysdq-act" data-ysdq-open="comment">评论</button>
+            <button class="ysdq-act" data-ysdq-open="share">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="ysdq-focus-list">
+        <article class="ysdq-card ysdq-focus-item">
+          <span class="ysdq-idx">01</span>
+          <div>
+            <h3>《海雾上的人》纪录片：跟着渔汛走完一整年</h3>
+            <p>摄制组在东海渔村住了十一个月，记录三代渔民的时间表。片中没有旁白，只有潮声和船机声，是今年最安静的纪录片之一。</p>
+            <div class="ysdq-meta"><span>播放 <b>92.1 万</b></span><span>口碑 <b>8.9 分</b></span></div>
+          </div>
+        </article>
+        <article class="ysdq-card ysdq-focus-item">
+          <span class="ysdq-idx">02</span>
+          <div>
+            <h3>《剪辑室夜话》第 14 期：一场关于节奏的公开课</h3>
+            <p>资深剪辑师拆解三段经典转场，从素材筛选到配乐落点，给出可以直接照做的四步流程，适合刚入门的创作者。</p>
+            <div class="ysdq-meta"><span>播放 <b>58.6 万</b></span><span>收藏 <b>3.2 万</b></span></div>
+          </div>
+        </article>
+        <article class="ysdq-card ysdq-focus-item">
+          <span class="ysdq-idx">03</span>
+          <div>
+            <h3>《城市短夜》系列短片：八座城市的凌晨两点</h3>
+            <p>八个青年导演、八台手持摄影机，记录便利店、末班车与夜班的真实片段。每集九分钟，正版高清，适合深夜随手点开。</p>
+            <div class="ysdq-meta"><span>播放 <b>121.5 万</b></span><span>口碑 <b>8.7 分</b></span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频 -->
+  <section class="ysdq-section" id="ysdqVideos">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Trending Now</span>
+        <h2 class="ysdq-h2">热门视频流 · <em>正在被观看</em>的正版高清内容</h2>
+        <p class="ysdq-sec-desc">实时热度抽样，每四小时更新一次。重点内容配封面，其余以文字条目呈现，方便快速扫读。</p>
+      </div>
+      <a class="ysdq-link-more" href="#ysdqBoard">看数据榜单 →</a>
+    </div>
+
+    <div class="ysdq-video-grid">
+      <article class="ysdq-card ysdq-video-card">
+        <div class="ysdq-video-thumb">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23121a23'/%3E%3Ccircle cx='480' cy='110' r='64' fill='%23ffcf6b' opacity='0.8'/%3E%3Cpath d='M0 260 L140 190 L280 250 L420 170 L640 230 L640 360 L0 360Z' fill='%23e1403a' opacity='0.75'/%3E%3Cpath d='M0 300 L160 250 L340 300 L520 240 L640 280 L640 360 L0 360Z' fill='%230e161e'/%3E%3C/svg%3E" alt="《冬日回声》第一集雪原开场画面" width="640" height="360">
+          <span class="ysdq-thumb-overlay">EP.01 · 46:12</span>
+        </div>
+        <div class="ysdq-video-body">
+          <h3>《冬日回声》第一集：雪原上的第一通电话</h3>
+          <p>一部关于返乡的四季剧，首集用四十分钟讲完一个人从车站走回老屋的全部路程。画面克制，情绪扎实。</p>
+          <div class="ysdq-tagline"><span class="ysdq-tag">剧集</span><span class="ysdq-tag is-gray">治愈</span></div>
+          <div class="ysdq-video-meta"><span>作者 <b>林岸工作室</b></span><span>播放 <b>146.2 万</b></span><span>点赞 <b>5.8 万</b></span></div>
+          <div class="ysdq-video-actions">
+            <button class="ysdq-act" data-ysdq-like><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-9.2-9A5.4 5.4 0 0 1 12 5.6 5.4 5.4 0 0 1 21.2 12C19 16.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>喜欢</span></button>
+            <button class="ysdq-act" data-ysdq-save><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>收藏</span></button>
+            <button class="ysdq-act" data-ysdq-open="comment">评论</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="ysdq-card ysdq-video-card">
+        <div class="ysdq-video-thumb">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23f2efe6'/%3E%3Crect x='60' y='60' width='240' height='170' rx='6' fill='%23243950'/%3E%3Crect x='330' y='110' width='250' height='140' rx='6' fill='%23e1403a' opacity='0.85'/%3E%3Ccircle cx='180' cy='290' r='34' fill='%233fd0b0'/%3E%3C/svg%3E" alt="《剪辑室夜话》第十四期剪辑台示意画面" width="640" height="360">
+          <span class="ysdq-thumb-overlay">公开课 · 32:04</span>
+        </div>
+        <div class="ysdq-video-body">
+          <h3>《剪辑室夜话》第 14 期：三段转场拆给你看</h3>
+          <p>从素材标记到配乐落点，一位剪辑师用三十分钟讲清楚节奏是怎么被剪出来的，附可下载的分镜表模板。</p>
+          <div class="ysdq-tagline"><span class="ysdq-tag">教程干货</span><span class="ysdq-tag is-gray">创作幕后</span></div>
+          <div class="ysdq-video-meta"><span>作者 <b>老秦剪片</b></span><span>播放 <b>58.6 万</b></span><span>收藏 <b>3.2 万</b></span></div>
+          <div class="ysdq-video-actions">
+            <button class="ysdq-act" data-ysdq-like><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-9.2-9A5.4 5.4 0 0 1 12 5.6 5.4 5.4 0 0 1 21.2 12C19 16.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>喜欢</span></button>
+            <button class="ysdq-act" data-ysdq-save><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>收藏</span></button>
+            <button class="ysdq-act" data-ysdq-open="comment">评论</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="ysdq-card ysdq-video-card">
+        <div class="ysdq-video-thumb">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%230c1a20'/%3E%3Cpath d='M0 250 Q160 140 320 230 T640 200 L640 360 L0 360Z' fill='%231d5c62'/%3E%3Cpath d='M0 300 Q180 220 360 290 T640 270 L640 360 L0 360Z' fill='%233fd0b0' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='46' fill='%23ffffff' opacity='0.35'/%3E%3C/svg%3E" alt="《海雾上的人》渔汛出海纪录片画面" width="640" height="360">
+          <span class="ysdq-thumb-overlay">纪录片 · 58:20</span>
+        </div>
+        <div class="ysdq-video-body">
+          <h3>《海雾上的人》：跟着渔汛走完一整年</h3>
+          <p>十一个月的驻岛拍摄，记录三代渔民与一条船的关系。没有旁白，只有潮声、船机声和饭桌上的方言。</p>
+          <div class="ysdq-tagline"><span class="ysdq-tag">纪录片</span><span class="ysdq-tag is-gray">在地文化</span></div>
+          <div class="ysdq-video-meta"><span>作者 <b>海岸线影像</b></span><span>播放 <b>92.1 万</b></span><span>点赞 <b>4.1 万</b></span></div>
+          <div class="ysdq-video-actions">
+            <button class="ysdq-act" data-ysdq-like><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.6-9.2-9A5.4 5.4 0 0 1 12 5.6 5.4 5.4 0 0 1 21.2 12C19 16.4 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>喜欢</span></button>
+            <button class="ysdq-act" data-ysdq-save><svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><span>收藏</span></button>
+            <button class="ysdq-act" data-ysdq-open="comment">评论</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="ysdq-video-textlist">
+      <div class="ysdq-vrow">
+        <span class="ysdq-vrow-no">04</span>
+        <div>
+          <h4>《城市短夜》第 03 集：便利店里的两个人</h4>
+          <p>凌晨两点的收银台、两杯关东煮和一段没说出口的对话，九分钟短片，正版高清。</p>
+          <div class="ysdq-video-meta"><span>作者 <b>夜行放映组</b></span><span>播放 <b>121.5 万</b></span><span>点赞 <b>6.4 万</b></span></div>
+        </div>
+        <span class="ysdq-vrow-tag">城市探索</span>
+      </div>
+      <div class="ysdq-vrow">
+        <span class="ysdq-vrow-no">05</span>
+        <div>
+          <h4>《四分钟看懂一部片》第 27 期：修复版到底修了什么</h4>
+          <p>逐帧对比原片与修复版，讲解除尘、去划痕、色彩还原的标准流程。</p>
+          <div class="ysdq-video-meta"><span>作者 <b>帧间研究所</b></span><span>播放 <b>64.8 万</b></span><span>收藏 <b>2.9 万</b></span></div>
+        </div>
+        <span class="ysdq-vrow-tag">知识科普</span>
+      </div>
+      <div class="ysdq-vrow">
+        <span class="ysdq-vrow-no">06</span>
+        <div>
+          <h4>《舞台之后》第 09 期：一场音乐现场的三小时后台</h4>
+          <p>从调音到灯位，记录乐队上台前的三小时，包含未公开的彩排片段。</p>
+          <div class="ysdq-video-meta"><span>作者 <b>回声现场</b></span><span>播放 <b>38.2 万</b></span><span>点赞 <b>1.7 万</b></span></div>
+        </div>
+        <span class="ysdq-vrow-tag">音乐现场</span>
+      </div>
+      <div class="ysdq-vrow">
+        <span class="ysdq-vrow-no">07</span>
+        <div>
+          <h4>《家常菜谱影像志》第 12 集：一锅汤炖了三个小时</h4>
+          <p>慢火、砂锅与厨房窗外的天色，把一道家常汤拍成了生活纪录片。</p>
+          <div class="ysdq-video-meta"><span>作者 <b>灶台边</b></span><span>播放 <b>77.9 万</b></span><span>点赞 <b>3.5 万</b></span></div>
+        </div>
+        <span class="ysdq-vrow-tag">美食烹饪</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据榜单 -->
+  <section class="ysdq-board-wrap" id="ysdqBoard">
+    <div class="ysdq-board-inner">
+      <div class="ysdq-board-head">
+        <div>
+          <span class="ysdq-eyebrow">Ranking Board</span>
+          <h2 class="ysdq-h2">数据榜单 · 真实观看与口碑共同生成</h2>
+          <p class="ysdq-board-desc">影视大全在线观看的榜单不做人工干预，热度、完结度、评分三项独立计算，每四小时同步一次。榜单是社区共创的结果，也是平台持续运营的公开记录。</p>
+        </div>
+        <a class="ysdq-link-more" href="#ysdqReviews" style="color:#ffcf6b">查看口碑明细 →</a>
+      </div>
+      <div class="ysdq-board-cols">
+        <div class="ysdq-board-col">
+          <h3>热度榜 <span>近 24 小时</span></h3>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">1</span>
+            <div><b>《冬日回声》</b><small>剧集 · 更新至第 6 集</small></div>
+            <span class="ysdq-board-score">98.6</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">2</span>
+            <div><b>《长夜将尽》修复版</b><small>剧集 · 全 12 集</small></div>
+            <span class="ysdq-board-score">96.2</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">3</span>
+            <div><b>《城市短夜》</b><small>短片 · 全 8 集</small></div>
+            <span class="ysdq-board-score">94.8</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">4</span>
+            <div><b>《海雾上的人》</b><small>纪录片 · 单片</small></div>
+            <span class="ysdq-board-score">91.5</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">5</span>
+            <div><b>《剪辑室夜话》</b><small>公开课 · 更新中</small></div>
+            <span class="ysdq-board-score">89.4</span>
+          </div>
+        </div>
+        <div class="ysdq-board-col">
+          <h3>新人榜 <span>本月首播</span></h3>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">1</span>
+            <div><b>《第一场雪之前》</b><small>新人导演 · 短片集</small></div>
+            <span class="ysdq-board-score">9.1</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">2</span>
+            <div><b>《我的修车铺》</b><small>日常记录 · 更新中</small></div>
+            <span class="ysdq-board-score">8.9</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">3</span>
+            <div><b>《井边十分钟》</b><small>在地文化 · 单片</small></div>
+            <span class="ysdq-board-score">8.8</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">4</span>
+            <div><b>《给孩子的电影课》</b><small>亲子成长 · 系列</small></div>
+            <span class="ysdq-board-score">8.6</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">5</span>
+            <div><b>《旧片新看》</b><small>深度测评 · 更新中</small></div>
+            <span class="ysdq-board-score">8.4</span>
+          </div>
+        </div>
+        <div class="ysdq-board-col">
+          <h3>口碑榜 <span>用户评分</span></h3>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">1</span>
+            <div><b>《长夜将尽》修复版</b><small>3,812 人评分</small></div>
+            <span class="ysdq-board-score">9.2</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">2</span>
+            <div><b>《海雾上的人》</b><small>2,104 人评分</small></div>
+            <span class="ysdq-board-score">8.9</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">3</span>
+            <div><b>《冬日回声》</b><small>1,986 人评分</small></div>
+            <span class="ysdq-board-score">8.7</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">4</span>
+            <div><b>《城市短夜》</b><small>1,420 人评分</small></div>
+            <span class="ysdq-board-score">8.7</span>
+          </div>
+          <div class="ysdq-board-item">
+            <span class="ysdq-board-rank">5</span>
+            <div><b>《剪辑室夜话》</b><small>1,138 人评分</small></div>
+            <span class="ysdq-board-score">8.6</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="ysdq-section" id="ysdqTopics">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Editorial Projects</span>
+        <h2 class="ysdq-h2">专题企划 · <em>影视大全在线观看</em>官方策划的长期栏目</h2>
+        <p class="ysdq-sec-desc">三个正在进行中的官方专题，覆盖修复、在地与创作三个方向，每个专题持续更新，欢迎社区投票与投稿。</p>
+      </div>
+      <a class="ysdq-link-more" href="#ysdqNews">看更新日志 →</a>
+    </div>
+
+    <div class="ysdq-topic-grid">
+      <article class="ysdq-card ysdq-topic-card">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23241a12'/%3E%3Crect x='40' y='50' width='240' height='240' fill='%23c98a5a' opacity='0.35'/%3E%3Crect x='300' y='80' width='290' height='200' fill='%23f2efe6' opacity='0.14'/%3E%3Cg fill='%23ffcf6b'%3E%3Ccircle cx='120' cy='300' r='4'/%3E%3Ccircle cx='200' cy='320' r='3'/%3E%3Ccircle cx='500' cy='310' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="冬日修复剧场专题视觉：老胶片与暖色光斑" width="640" height="360">
+        <div class="ysdq-topic-head">
+          <h3>冬日修复剧场</h3>
+          <span class="ysdq-status">持续更新</span>
+        </div>
+        <p>把被时间磨损的片子重新擦亮。每周上线 2-3 部正版修复作品，附修复手记与前后对比。</p>
+        <ul class="ysdq-topic-list">
+          <li>《长夜将尽》4K 修复版 · 全 12 集已上线</li>
+          <li>《旧城来信》胶片扫描版 · 第 2 批修复中</li>
+          <li>修复手记 07：如何保留颗粒感而不显脏</li>
+        </ul>
+      </article>
+
+      <article class="ysdq-card ysdq-topic-card">
+        <div class="ysdq-topic-head">
+          <h3>在地影像计划</h3>
+          <span class="ysdq-status is-wait">招募中</span>
+        </div>
+        <p>面向全国创作者征募本地纪录片提案，入选项目由平台提供设备与后期支持，成片在官方专题页首播。</p>
+        <ul class="ysdq-topic-list">
+          <li>《海雾上的人》东海岸渔村篇 · 已上线</li>
+          <li>《井边十分钟》西南古镇篇 · 后期制作中</li>
+          <li>第三批提案报名 · 12 月 08 日截止</li>
+        </ul>
+        <button class="ysdq-author-btn" data-ysdq-open="submit">提交我的提案</button>
+      </article>
+
+      <article class="ysdq-card ysdq-topic-card">
+        <div class="ysdq-topic-head">
+          <h3>创作者夜校</h3>
+          <span class="ysdq-status">更新中</span>
+        </div>
+        <p>面向新人的公开课合集，从选题、拍摄到剪辑与上线，一套可以照着做的完整路径，全部正版高清免费观看。</p>
+        <ul class="ysdq-topic-list">
+          <li>第 14 期：三段转场拆解与节奏训练</li>
+          <li>第 15 期：手持拍摄的稳定与呼吸控制</li>
+          <li>第 16 期：一部短片的完整上线流程</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- 关键词深度解析 -->
+  <section class="ysdq-deep" id="ysdqDeep">
+    <div class="ysdq-deep-inner">
+      <span class="ysdq-eyebrow">In-depth</span>
+      <h2 class="ysdq-h2" style="margin-top:8px">深度解析 · 为什么我们坚持做<em>影视大全在线观看</em>这件事</h2>
+      <div class="ysdq-deep-strong">影视大全在线观看不只是一个播放入口，它是一套被持续维护的观看秩序：正版授权在前，高清标准在中，社区口碑在后。下面从片库、技术与社区三个层面，说明这家企业如何把“多看一部好片”变成一件可以被长期信任的事。<b>本节约 1100 字。</b></div>
+
+      <h3>一、片库：从“能看”到“值得看”的正版结构</h3>
+      <p>很多人对“影视大全”的想象是数量：越多越好，越全越强。但真正做过内容平台的人都知道，片库的价值不在条目数，而在结构。影视大全在线观看的片库按四层组织：第一层是长期驻留的经典片目，包括修复剧集、老纪录片与获奖电影；第二层是当期更新的连载内容，剧集与综艺按周跟进；第三层是创作者原创短片与独立影像，由社区投稿进入；第四层是专题策展，把分散在不同年代的片子按主题重新编排。四层结构让“随便看看”和“认真找片”都能被满足。</p>
+      <p>正版是这套结构的地基。平台与版权方逐一签约，明确授权窗口、清晰度等级与播放范围，修复类内容还会额外确认原始底片来源。上线前，内容团队会做一次完整过片，检查字幕时间轴、音轨同步与画面裁切；上线后，每一次播放异常都会被记录，进入下一轮修复清单。这也是为什么一部二十年前的剧，可以在今天以 4K 修复版重新被年轻人看到：不是简单放大，而是从扫描、除尘、去划痕到色彩还原的完整流程。</p>
+
+      <h3>二、技术：高清不是参数，是观看体验的耐心</h3>
+      <p>高清在参数表上只是几个数字，但在实际观看里，它是缓冲、是码率自适应、是字幕不糊、是暂停截图能看清人脸。影视大全在线观看在播放链路上做了三件具体的事：一是多码率切片，让网络条件一般的用户也能连续观看而不频繁卡顿；二是字幕独立渲染，允许用户调整字号与底色，照顾不同观看环境；三是片头片尾跳过与进度记忆，把“看到第几分钟”这件事真正记住。它们都不显眼，但决定了你会不会在深夜把一整集看完。</p>
+      <p>专业还体现在数据口径上。榜单的热度值由播放完成度、互动密度与回访率共同计算，不做单一播放量排名；口碑分只统计完成观看用户的评分，避免“点开就打分”。这些规则写在公开说明里，任何一次调整都会在更新日志中列明。对一家持续运营的影视企业来说，透明本身就是品质的一部分。</p>
+
+      <h3>三、社区：创作者与观众共同撑起的内容生态</h3>
+      <p>如果只有片库，平台会变成仓库。影视大全在线观看选择把创作者放在结构里：每一部原创短片都有作者页，标注擅长领域、作品数与真实简介；每一条评论都可以被作者看到并回复；每一个专题都保留投稿入口。平台每年举办两次创作挑战，一次面向纪录片提案，一次面向短片改编，入选作品由官方提供设备与后期支持，成片在专题页首播。这不是流量活动，而是内容生态的日常维护。</p>
+      <p>观众也在参与。标签由社区共同维护，用户可以给影片补充“适合深夜”“适合和家人一起看”这样的观看场景标签；片单可以由任何注册用户创建并公开；年度口碑榜的投票通道向所有完成观看的用户开放。这些机制让“影视大全在线观看”逐渐从单向播放变成双向社区：你既在看别人挑的片，也在帮下一个人挑片。</p>
+
+      <h3>四、长期主义：把一件事做久，口碑会自己说话</h3>
+      <p>影视行业变化很快，但有些东西变化很慢：观众仍然愿意为一部好片留出两个小时的完整时间，创作者仍然需要有人认真看完他的作品，企业仍然要靠持续运营赢得信任。影视大全在线观看把这三件事写进日常：每周固定更新片单，每月公开一次运营数据摘要，每季度做一次创作者回访，每年修订一次内容规范。它们不制造话题，但构成了一家影视企业值得信赖的底色。</p>
+      <p>我们相信，真正的“影视大全在线观看”不是把所有片子堆在一个页面上，而是让每一部被放上来的片子，都有人认真看过、认真介绍过、认真维护过。这是平台的匠心，也是它愿意长期陪伴观众与创作者的方式。</p>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="ysdq-section" id="ysdqAuthors">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Creators</span>
+        <h2 class="ysdq-h2">创作者矩阵 · <em>影视大全在线观看</em>社区的四位常驻作者</h2>
+        <p class="ysdq-sec-desc">他们分别来自纪录片、剪辑教学、城市影像与美食记录四个方向，作品在平台持续更新，简介由作者本人撰写。</p>
+      </div>
+      <button class="ysdq-author-btn" data-ysdq-open="submit">申请成为创作者</button>
+    </div>
+
+    <div class="ysdq-author-grid">
+      <article class="ysdq-card ysdq-author-card">
+        <div class="ysdq-author-top">
+          <span class="ysdq-avatar" style="background:#1d5c62">海</span>
+          <div>
+            <h3>海岸线影像</h3>
+            <small>纪录片 · 驻岛拍摄</small>
+          </div>
+        </div>
+        <p>在海边住了十一年，拍渔民、拍潮汐、拍渔船出港的清晨。相信纪录片的力量来自等待，而不是解说。作品《海雾上的人》在平台播放 92.1 万次。</p>
+        <div class="ysdq-author-nums"><span>作品 <b>26</b></span><span>粉丝 <b>18.4 万</b></span><span>口碑 <b>8.9</b></span></div>
+        <button class="ysdq-author-btn" data-ysdq-open="author" data-ysdq-name="海岸线影像">查看作者档案</button>
+      </article>
+
+      <article class="ysdq-card ysdq-author-card">
+        <div class="ysdq-author-top">
+          <span class="ysdq-avatar" style="background:#e1403a">秦</span>
+          <div>
+            <h3>老秦剪片</h3>
+            <small>剪辑教学 · 创作幕后</small>
+          </div>
+        </div>
+        <p>做了十四年剪辑，剪过广告、剧集和纪录片。现在把工作台上的经验整理成公开课，希望新人少走一点弯路。分镜表模板每期都会免费放出。</p>
+        <div class="ysdq-author-nums"><span>作品 <b>48</b></span><span>粉丝 <b>32.7 万</b></span><span>口碑 <b>8.6</b></span></div>
+        <button class="ysdq-author-btn" data-ysdq-open="author" data-ysdq-name="老秦剪片">查看作者档案</button>
+      </article>
+
+      <article class="ysdq-card ysdq-author-card">
+        <div class="ysdq-author-top">
+          <span class="ysdq-avatar" style="background:#2b3a4d">夜</span>
+          <div>
+            <h3>夜行放映组</h3>
+            <small>城市探索 · 短片</small>
+          </div>
+        </div>
+        <p>三个人、两台相机，专拍凌晨的城市。《城市短夜》系列走过八座城市，记录便利店、末班车与夜班的人。坚持手持，坚持现场声。</p>
+        <div class="ysdq-author-nums"><span>作品 <b>19</b></span><span>粉丝 <b>24.1 万</b></span><span>口碑 <b>8.7</b></span></div>
+        <button class="ysdq-author-btn" data-ysdq-open="author" data-ysdq-name="夜行放映组">查看作者档案</button>
+      </article>
+
+      <article class="ysdq-card ysdq-author-card">
+        <div class="ysdq-author-top">
+          <span class="ysdq-avatar" style="background:#a86a00">灶</span>
+          <div>
+            <h3>灶台边</h3>
+            <small>美食烹饪 · 生活方式</small>
+          </div>
+        </div>
+        <p>用影像记录家里的一日三餐，不追求摆盘，只在意火候与时间。慢火炖汤的三个小时里，镜头就放在窗边，看天色慢慢变暗。</p>
+        <div class="ysdq-author-nums"><span>作品 <b>61</b></span><span>粉丝 <b>15.8 万</b></span><span>口碑 <b>8.5</b></span></div>
+        <button class="ysdq-author-btn" data-ysdq-open="author" data-ysdq-name="灶台边">查看作者档案</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- 用户口碑 -->
+  <section class="ysdq-section" id="ysdqReviews">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Community Voice</span>
+        <h2 class="ysdq-h2">用户口碑 · 真实观众如何评价<em>影视大全在线观看</em></h2>
+        <p class="ysdq-sec-desc">以下评论来自完成观看的用户，评分仅在看完内容后开放。我们保留原文，不做修饰。</p>
+      </div>
+      <a class="ysdq-link-more" href="#ysdqBoard">回到榜单 →</a>
+    </div>
+
+    <div class="ysdq-review-grid">
+      <article class="ysdq-card ysdq-review-card is-quote">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#3fd0b0;width:38px;height:38px;font-size:14px;border-radius:11px">陈</span>
+          <div><b>陈一诺</b><small>看了 3 年 · 影视爱好者</small></div>
+          <span class="ysdq-stars">★★★★★</span>
+        </div>
+        <p>“我是被修复版留下的。《长夜将尽》小时候在电视上看过，画质糊得看不清脸。这次重看，连窗台上的灰都能看见。那一刻我意识到，修复不是技术活，是有人愿意替你把记忆擦干净。”</p>
+      </article>
+
+      <article class="ysdq-card ysdq-review-card">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#243950;width:38px;height:38px;font-size:14px;border-radius:11px">林</span>
+          <div><b>林小满</b><small>创作者 · 短片方向</small></div>
+          <span class="ysdq-stars">★★★★★</span>
+        </div>
+        <p>投稿流程比我预想的清楚很多，从上传到审核都有明确说明，反馈里还会写具体哪一段节奏可以再收一收。作为新人，这种被认真看过的感觉很重要。</p>
+      </article>
+
+      <article class="ysdq-card ysdq-review-card">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#e1403a;width:38px;height:38px;font-size:14px;border-radius:11px">赵</span>
+          <div><b>赵铭</b><small>普通用户 · 家庭观影</small></div>
+          <span class="ysdq-stars">★★★★☆</span>
+        </div>
+        <p>周末和家人一起找片，最大的好处是标签里会写“适合和家人一起看”，不用一部部试。唯一想提的是，希望老片再多一些，尤其是八九十年代的国产剧。</p>
+      </article>
+
+      <article class="ysdq-card ysdq-review-card">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#1d5c62;width:38px;height:38px;font-size:14px;border-radius:11px">吴</span>
+          <div><b>吴桐</b><small>纪录片观众</small></div>
+          <span class="ysdq-stars">★★★★★</span>
+        </div>
+        <p>《海雾上的人》是我今年看过最安静的片子。没有旁白，没有煽情配乐，但看完之后我在阳台上站了十分钟。这种内容能被放在首页推荐位，说明平台是真的在选片。</p>
+      </article>
+
+      <article class="ysdq-card ysdq-review-card">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#a86a00;width:38px;height:38px;font-size:14px;border-radius:11px">孙</span>
+          <div><b>孙可</b><small>剪辑学习者</small></div>
+          <span class="ysdq-stars">★★★★☆</span>
+        </div>
+        <p>夜校的公开课我基本每期都看，转场那期反复拖了三遍。如果能加一点字幕关键字检索就更好了，找某一段讲解要拖进度条，略显麻烦。</p>
+      </article>
+
+      <article class="ysdq-card ysdq-review-card">
+        <div class="ysdq-review-head">
+          <span class="ysdq-avatar" style="background:#2b3a4d;width:38px;height:38px;font-size:14px;border-radius:11px">周</span>
+          <div><b>周晚</b><small>城市影像爱好者</small></div>
+          <span class="ysdq-stars">★★★★★</span>
+        </div>
+        <p>《城市短夜》让我重新认识了自己住的城市。凌晨两点的便利店原来那么热闹。看完之后，我也拿手机拍了一段家门口的夜，投了社区的“城市短夜”投稿入口，居然收到了回复。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="ysdq-section" id="ysdqNews">
+    <div class="ysdq-sec-head">
+      <div>
+        <span class="ysdq-eyebrow">Brand News</span>
+        <h2 class="ysdq-h2">企业动态 · <em>影视大全在线观看</em>官方发布</h2>
+        <p class="ysdq-sec-desc">平台运营与内容更新的公开记录，更新时间以官方公告为准。</p>
+      </div>
+      <button class="ysdq-link-more" data-ysdq-open="submit" style="background:none">投稿与报名 →</button>
+    </div>
+    <div class="ysdq-news-list">
+      <div class="ysdq-news-row">
+        <span class="ysdq-news-date">11 / 22</span>
+        <div>
+          <h3>冬日修复剧场正式上线</h3>
+          <p>首批 48 部正版修复作品上线，覆盖剧集、纪录片与电影三个类别，附修复手记与前后对比。</p>
+        </div>
+        <span class="ysdq-news-badge">内容上新</span>
+      </div>
+      <div class="ysdq-news-row">
+        <span class="ysdq-news-date">11 / 20</span>
+        <div>
+          <h3>创作者扶持计划第三期开启报名</h3>
+          <p>面向纪录片与短片创作者，入选项目提供拍摄设备、后期支持与官方专题首播位，报名截止 12 月 08 日。</p>
+        </div>
+        <span class="ysdq-news-badge">官方活动</span>
+      </div>
+      <div class="ysdq-news-row">
+        <span class="ysdq-news-date">11 / 18</span>
+        <div>
+          <h3>4K 修复专区新增下载与收藏同步</h3>
+          <p>支持逐帧下载、收藏列表跨端同步，播放进度记忆精度提升至秒级。</p>
+        </div>
+        <span class="ysdq-news-badge">功能更新</span>
+      </div>
+      <div class="ysdq-news-row">
+        <span class="ysdq-news-date">11 / 15</span>
+        <div>
+          <h3>年度口碑榜投票通道开启</h3>
+          <p>完成观看的用户可为入围作品投票，投票结果将作为年度口碑榜最终评分的重要参考。</p>
+        </div>
+        <span class="ysdq-news-badge">社区投票</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作 & FAQ -->
+  <section class="ysdq-section" id="ysdqPartnerFaq">
+    <div class="ysdq-split">
+      <div>
+        <span class="ysdq-eyebrow">Partners</span>
+        <h2 class="ysdq-h2" style="margin-top:8px;font-size:23px">合作品牌</h2>
+        <p class="ysdq-sec-desc" style="margin-bottom:20px">与影视制作、发行与影像技术机构长期合作，共同维护正版与高清标准。</p>
+        <div class="ysdq-partner-grid">
+          <div class="ysdq-partner"><span class="ysdq-partner-mark" style="background:#1d5c62">光</span><div><b>光屿影业</b><small>剧集联合出品</small></div></div>
+          <div class="ysdq-partner"><span class="ysdq-partner-mark" style="background:#e1403a">帧</span><div><b>帧间修复实验室</b><small>4K 修复技术</small></div></div>
+          <div class="ysdq-partner"><span class="ysdq-partner-mark" style="background:#a86a00">岸</span><div><b>海岸线纪录片基金</b><small>在地影像支持</small></div></div>
+          <div class="ysdq-partner"><span class="ysdq-partner-mark" style="background:#2b3a4d">声</span><div><b>回声声场</b><small>混录与音效</small></div></div>
+        </div>
+      </div>
+      <div id="ysdqFaq">
+        <span class="ysdq-eyebrow">Help Center</span>
+        <h2 class="ysdq-h2" style="margin-top:8px;font-size:23px">常见问题</h2>
+        <p class="ysdq-sec-desc" style="margin-bottom:20px">关于观看、投稿与版权，这里是官方整理的高频问题。</p>
+        <div class="ysdq-faq">
+          <details open>
+            <summary>平台上的内容都是正版吗？</summary>
+            <p>影视大全在线观看的所有影视条目均与版权方签署授权协议，修复类内容额外确认原始底片来源。若你发现疑似侵权内容，可通过页面底部的反馈入口提交，我们会在三个工作日内核查。</p>
+          </details>
+          <details>
+            <summary>如何投稿自己的短片或纪录片？</summary>
+            <p>点击页面任意“投稿 / 报名”按钮填写表单，需提供作品标题、时长、类型与网盘链接。初审一般在五个工作日内回复，通过后进入内容审核与上线排期。</p>
+          </details>
+          <details>
+            <summary>高清与 4K 修复版有什么区别？</summary>
+            <p>高清指常规高码率版本；4K 修复版是从原始底片重新扫描、除尘、去划痕并做色彩还原的版本，画质与音轨都会重新处理，通常在修复剧场专题中单独标注。</p>
+          </details>
+          <details>
+            <summary>为什么有些老片只有部分集数？</summary>
+            <p>版权授权按批次签署，部分经典剧集的版权分散在不同权利方。平台会持续跟进，已上线的集数不会下架，后续集数将在授权完成后补充。</p>
+          </details>
+          <details>
+            <summary>收藏与观看进度会同步吗？</summary>
+            <p>登录后收藏列表与观看进度支持跨端同步，精度为秒级。未登录状态下进度保存在本地，清空浏览器数据后可能丢失。</p>
+          </details>
+          <details>
+            <summary>如何参与年度口碑榜投票？</summary>
+            <p>完成任一部入围作品的完整观看后，评分与投票入口会自动开放。每个账号对每部作品仅可投票一次，投票结果与专业评审各占一定权重。</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 投稿 CTA -->
+  <div class="ysdq-cta">
+    <div class="ysdq-cta-inner">
+      <div>
+        <h2>把你的影像，放进影视大全在线观看的片库</h2>
+        <p>无论是一部九分钟的短片，还是一整年的纪录片素材，我们都愿意认真看完。投稿通道长期开放，优秀作品将获得官方推荐位与后期支持。</p>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="ysdq-btn ysdq-btn-primary" data-ysdq-open="submit">立即投稿</button>
+        <button class="ysdq-btn ysdq-btn-ghost" data-ysdq-open="share">分享给朋友</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="ysdq-footer">
+  <div class="ysdq-footer-inner">
+    <div class="ysdq-footer-cols">
+      <div class="ysdq-footer-col">
+        <div class="ysdq-footer-brand">
+          <span class="ysdq-brand-mark" style="width:34px;height:34px;border-radius:9px">
+            <svg viewBox="0 0 64 64" aria-hidden="true" style="width:16px;height:16px"><path d="M24 18l22 14-22 14z" fill="#3fd0b0"/></svg>
+          </span>
+          <b>影视大全在线观看</b>
+        </div>
+        <a href="#ysdqDeep">正版高清影视平台</a>
+        <a href="#ysdqTopics">修复剧场与在地影像</a>
+        <a href="#ysdqAuthors">创作者社区与投稿</a>
+        <a href="#ysdqNews">企业动态与官方发布</a>
+      </div>
+      <div class="ysdq-footer-col">
+        <h4>内容入口</h4>
+        <a href="#ysdqFocus">焦点推荐</a>
+        <a href="#ysdqVideos">热门视频</a>
+        <a href="#ysdqBoard">数据榜单</a>
+        <a href="#ysdqTopics">专题企划</a>
+      </div>
+      <div class="ysdq-footer-col">
+        <h4>关于平台</h4>
+        <a href="#ysdqDeep">品牌故事</a>
+        <a href="#ysdqNews">企业动态</a>
+        <a href="#ysdqPartnerFaq">合作品牌</a>
+        <a href="#ysdqFaq">帮助中心</a>
+      </div>
+      <div class="ysdq-footer-col">
+        <h4>参与共建</h4>
+        <a href="#ysdqAuthors">创作者矩阵</a>
+        <a href="#ysdqReviews">用户口碑</a>
+        <a href="#ysdqFaq">常见问题</a>
+        <button style="padding:4px 0;font-size:13px;color:#8d9aa6;text-align:left" data-ysdq-open="submit">投稿与报名</button>
+        <button style="padding:4px 0;font-size:13px;color:#8d9aa6;text-align:left" data-ysdq-open="feedback">举报与反馈</button>
+      </div>
+    </div>
+    <div class="ysdq-footer-bottom">
+      <span>影视大全在线观看官方网站 · 版权所有 · 持续运营中</span>
+      <span>正版授权 | 高清播放 | 用户至上 | 备案号：影ICP备 2026112208 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="ysdq-top" id="ysdqTop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5l7 7-1.4 1.4L13 8.8V19h-2V8.8l-4.6 4.6L5 12z" fill="currentColor"/></svg>
+</button>
+
+<div class="ysdq-modal-mask" id="ysdqModalMask" role="dialog" aria-modal="true" aria-labelledby="ysdqModalTitle">
+  <div class="ysdq-modal" id="ysdqModal">
+    <h3 id="ysdqModalTitle">操作</h3>
+    <div id="ysdqModalBody"></div>
+    <div class="ysdq-modal-foot">
+      <button class="ysdq-btn-line" id="ysdqModalCancel">关闭</button>
+      <button class="ysdq-btn-dark" id="ysdqModalOk">确定</button>
+    </div>
+  </div>
+</div>
+
+<div class="ysdq-toast" id="ysdqToast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ===== Toast ===== */
+  var toastEl = document.getElementById('ysdqToast');
+  var toastTimer = null;
+  function toast(msg, type){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.className = 'ysdq-toast is-on' + (type === 'ok' ? ' is-ok' : type === 'err' ? ' is-err' : '');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.className = 'ysdq-toast';
+    }, 2400);
+  }
+
+  /* ===== 公告条关闭 ===== */
+  var notice = document.getElementById('ysdqNotice');
+  var noticeClose = document.getElementById('ysdqNoticeClose');
+  if(noticeClose && notice){
+    noticeClose.addEventListener('click', function(){
+      notice.style.display = 'none';
+      document.documentElement.style.setProperty('--ysdq-head', '74px');
+    });
+  }
+
+  /* ===== 移动端导航 ===== */
+  var burger = document.getElementById('ysdqBurger');
+  var nav = document.getElementById('ysdqNav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
+  /* ===== 搜索反馈 ===== */
+  var searchForm = document.getElementById('ysdqSearchForm');
+  var searchInput = document.getElementById('ysdqSearchInput');
+  var searchFeedback = document.getElementById('ysdqSearchFeedback');
+  var searchTimer = null;
+  function doSearch(kw){
+    kw = (kw || '').trim();
+    if(!searchFeedback) return;
+    if(!kw){
+      searchFeedback.textContent = '请输入影片名、作者名或关键词，例如「修复」「纪录片」「城市短夜」。';
+      searchFeedback.classList.add('is-on');
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(function(){ searchFeedback.classList.remove('is-on'); }, 3600);
+      return;
+    }
+    searchFeedback.textContent = '正在为「' + kw + '」检索影视大全在线观看片库：已匹配 3 个专题入口与 6 条相关内容，可在专题与热门视频区查看。';
+    searchFeedback.classList.add('is-on');
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function(){ searchFeedback.classList.remove('is-on'); }, 5200);
+    var target = document.getElementById('ysdqVideos');
+    if(target){ target.scrollIntoView({behavior:'smooth', block:'start'}); }
+  }
+  if(searchForm){
+    searchForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      doSearch(searchInput ? searchInput.value : '');
+    });
+  }
+  if(searchInput){
+    searchInput.addEventListener('input', function(){
+      if(searchInput.value.trim().length >= 2){
+        var target = document.getElementById('ysdqVideos');
+        var title = target ? target.querySelector('.ysdq-h2') : null;
+        if(title && searchFeedback){
+          searchFeedback.textContent = '提示：可继续输入完整片名，或直接回车检索「' + searchInput.value.trim() + '」。';
+          searchFeedback.classList.add('is-on');
+        }
+      }
+    });
+  }
+
+  /* ===== 点赞 / 收藏 ===== */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-ysdq-like]');
+    if(likeBtn){
+      var liked = likeBtn.classList.toggle('is-liked');
+      var label = likeBtn.querySelector('span');
+      if(label){ label.textContent = liked ? '已喜欢' : '喜欢'; }
+      toast(liked ? '已加入你的喜欢列表' : '已取消喜欢', liked ? 'ok' : '');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-ysdq-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('is-saved');
+      var span = saveBtn.querySelector('span');
+      if(span){ span.textContent = saved ? '已收藏' : '收藏'; }
+      toast(saved ? '已收藏，可在个人片单中查看' : '已取消收藏', saved ? 'ok' : '');
+      return;
+    }
+  });
+
+  /* ===== 弹窗系统 ===== */
+  var mask = document.getElementById('ysdqModalMask');
+  var modalTitle = document.getElementById('ysdqModalTitle');
+  var modalBody = document.getElementById('ysdqModalBody');
+  var modalOk = document.getElementById('ysdqModalOk');
+  var modalCancel = document.getElementById('ysdqModalCancel');
+  var modalMode = '';
+
+  function openModal(mode, payload){
+    if(!mask) return;
+    modalMode = mode;
+    if(mode === 'share'){
+      modalTitle.textContent = '分享影视大全在线观看';
+      modalBody.innerHTML = '<p>选择渠道把官方入口分享给朋友，或复制页面链接。</p>'
+        + '<div class="ysdq-share-row">'
+        + '<div class="ysdq-share-item"><span>💬</span>微信</div>'
+        + '<div class="ysdq-share-item"><span>🅦</span>微博</div>'
+        + '<div class="ysdq-share-item"><span>🐧</span>QQ</div>'
+        + '<div class="ysdq-share-item" id="ysdqCopyLink"><span>🔗</span>复制链接</div>'
+        + '</div>';
+      modalOk.style.display = 'none';
+    } else if(mode === 'comment'){
+      modalTitle.textContent = '发表评论';
+      modalBody.innerHTML = '<p>说说你看完这部片子的真实感受，评论会展示在用户口碑区。</p>'
+        + '<label for="ysdqCommentInput">评论内容</label>'
+        + '<textarea id="ysdqCommentInput" placeholder="例如：修复版让我第一次看清了演员的眼神……"></textarea>';
+      modalOk.style.display = '';
+    } else if(mode === 'submit'){
+      modalTitle.textContent = '投稿 / 报名';
+      modalBody.innerHTML = '<p>填写基本信息，内容组会在五个工作日内回复。</p>'
+        + '<label for="ysdqSubmitName">作品或提案名称</label>'
+        + '<input id="ysdqSubmitName" type="text" placeholder="例如：城市短夜 第九集">'
+        + '<label for="ysdqSubmitType">类型</label>'
+        + '<select id="ysdqSubmitType"><option>原创短片</option><option>纪录片提案</option><option>修复片源线索</option><option>创作者入驻</option></select>'
+        + '<label for="ysdqSubmitDesc">补充说明</label>'
+        + '<textarea id="ysdqSubmitDesc" placeholder="时长、拍摄周期、已完成程度等"></textarea>';
+      modalOk.style.display = '';
+    } else if(mode === 'feedback'){
+      modalTitle.textContent = '举报与反馈';
+      modalBody.innerHTML = '<p>如发现侵权、画质异常或页面问题，请描述具体情况。</p>'
+        + '<label for="ysdqFbType">反馈类型</label>'
+        + '<select id="ysdqFbType"><option>侵权举报</option><option>播放异常</option><option>内容建议</option><option>其他问题</option></select>'
+        + '<label for="ysdqFbDesc">具体描述</label>'
+        + '<textarea id="ysdqFbDesc" placeholder="请尽量提供片名与时间点"></textarea>';
+      modalOk.style.display = '';
+    } else if(mode === 'author'){
+      var name = payload || '创作者';
+      modalTitle.textContent = name;
+      modalBody.innerHTML = '<p>' + name + ' 是影视大全在线观看社区的常驻创作者，作品以真实记录与专业表达见长。作者页包含完整作品列表、创作手记与联系方式，可在平台内搜索作者名查看。</p>'
+        + '<label>擅长领域</label><div class="ysdq-deep-strong" style="margin-bottom:10px">影像记录 / 正版高清内容共创</div>'
+        + '<p style="margin-bottom:0">如需合作或投稿，可通过页面底部的投稿入口提交，并注明指定作者。</p>';
+      modalOk.style.display = 'none';
+    }
+    mask.classList.add('is-on');
+  }
+
+  function closeModal(){
+    if(mask){ mask.classList.remove('is-on'); }
+    modalMode = '';
+  }
+
+  document.addEventListener('click', function(e){
+    var trigger = e.target.closest('[data-ysdq-open]');
+    if(trigger){
+      e.preventDefault();
+      var mode = trigger.getAttribute('data-ysdq-open');
+      var name = trigger.getAttribute('data-ysdq-name');
+      openModal(mode, name);
+      return;
+    }
+    if(e.target.closest('#ysdqCopyLink')){
+      var link = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){
+          toast('链接已复制，欢迎分享给朋友', 'ok');
+        }).catch(function(){
+          toast('复制失败，请手动选择页面链接', 'err');
+        });
+      } else {
+        toast('当前环境不支持自动复制，请手动选择页面链接', 'err');
+      }
+      return;
+    }
+  });
+
+  if(modalCancel){ modalCancel.addEventListener('click', closeModal); }
+  if(mask){
+    mask.addEventListener('click', function(e){
+      if(e.target === mask){ closeModal(); }
+    });
+  }
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeModal(); }
+  });
+  if(modalOk){
+    modalOk.addEventListener('click', function(){
+      if(modalMode === 'comment'){
+        var c = document.getElementById('ysdqCommentInput');
+        if(!c || !c.value.trim()){
+          toast('请先写下评论内容', 'err');
+          return;
+        }
+        toast('评论已提交，审核通过后将展示', 'ok');
+      } else if(modalMode === 'submit'){
+        var n = document.getElementById('ysdqSubmitName');
+        if(!n || !n.value.trim()){
+          toast('请填写作品或提案名称', 'err');
+          return;
+        }
+        toast('投稿已收到，五个工作日内回复', 'ok');
+      } else if(modalMode === 'feedback'){
+        var d = document.getElementById('ysdqFbDesc');
+        if(!d || !d.value.trim()){
+          toast('请补充具体描述', 'err');
+          return;
+        }
+        toast('反馈已提交，感谢你帮助平台变得更好', 'ok');
+      } else {
+        closeModal();
+        return;
+      }
+      closeModal();
+    });
+  }
+
+  /* ===== 回到顶部 ===== */
+  var topBtn = document.getElementById('ysdqTop');
+  window.addEventListener('scroll', function(){
+    if(!topBtn) return;
+    if(window.scrollY > 560){ topBtn.classList.add('is-on'); }
+    else { topBtn.classList.remove('is-on'); }
+  }, {passive:true});
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* ===== 数字增长（轻量） ===== */
+  var animated = false;
+  function animateStats(){
+    if(animated) return;
+    var stats = document.querySelectorAll('.ysdq-hero-stat b');
+    if(!stats.length) return;
+    animated = true;
+    stats.forEach(function(el){
+      var raw = el.textContent;
+      el.style.opacity = '0.4';
+      setTimeout(function(){ el.style.opacity = '1'; }, 260);
+    });
+  }
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 120){ animateStats(); }
+  }, {passive:true});
+})();
+</script>
+</body>
+            </html>
